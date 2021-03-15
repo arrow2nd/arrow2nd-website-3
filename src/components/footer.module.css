@@ -1,0 +1,12 @@
+.footer {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.links {
+  margin-bottom: 15px;
+}
+
+.links a {
+  margin: 0 10px 0 10px !important;
+}

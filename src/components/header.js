@@ -1,42 +1,35 @@
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import * as React from 'react'
+import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
+import { Menu } from 'semantic-ui-react'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+import * as Styles from './header.module.css'
+
+const MenuItem = (name, to) => (
+  <Menu.Item>
+    <Link className={Styles.link} to={to}>
+      {name}
+    </Link>
+  </Menu.Item>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+const Header = () => (
+  <Menu className={Styles.navbar} secondary>
+    <Menu.Item>
+      <Link to="/">
+        <StaticImage
+          src="../images/arrow2nd-icon.png"
+          width={48}
+          formats={['webp']}
+          alt="icon"
+        />
+      </Link>
+    </Menu.Item>
+    <Menu.Menu position="right">
+      {MenuItem('About', '/about')}
+      {MenuItem('Works', '/works')}
+    </Menu.Menu>
+  </Menu>
+)
 
 export default Header

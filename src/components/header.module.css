@@ -1,0 +1,15 @@
+.navbar {
+  padding: 10px 20px  0 10px;
+}
+
+.link {
+  color: #1c1c1c;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: color .3s, letter-spacing .3s;
+}
+
+.link:hover {
+  color: #629DF7;
+  letter-spacing: 4px;
+}
