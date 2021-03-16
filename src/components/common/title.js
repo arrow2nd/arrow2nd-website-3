@@ -6,7 +6,8 @@ import * as Styles from './title.module.css'
 
 const Title = ({ name, subtext }) => (
   <div className={Styles.title}>
-    <Header as="h1" textAlign="center" content={name} subheader={subtext} />
+    <Header as="h1" textAlign="center" content={name} />
+    <div className={Styles.hr} />
   </div>
 )
 
