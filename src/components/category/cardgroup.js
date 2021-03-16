@@ -13,7 +13,7 @@ const CardGroup = ({ items }) => {
             id
             relativePath
             childImageSharp {
-              gatsbyImageData(placeholder: BLURRED)
+              gatsbyImageData
             }
           }
         }
@@ -22,11 +22,11 @@ const CardGroup = ({ items }) => {
   `)
 
   const cards = items.map((item) => {
-    const node = image.edges.find((e) => e.relativePath === item.filename)?.node
-    if (!node) return null
-    const imageData = getImage(node)
+    const img = image.edges.find((e) => e.node.relativePath === item.image)
+    if (!img) return null
+    const imageData = getImage(img.node)
     return (
-      <SUCard key={node.id} href={item.href}>
+      <SUCard key={img.node.id} href={item.href}>
         <GatsbyImage image={imageData} alt={item.title} />
         <SUCard.Content>
           <SUCard.Header content={item.title} />
@@ -47,7 +47,7 @@ CardGroup.defaultProps = {
   items: {
     title: ``,
     desc: ``,
-    iamge: ``,
+    image: ``,
     href: ``
   }
 }
