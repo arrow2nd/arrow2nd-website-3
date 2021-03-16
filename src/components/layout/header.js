@@ -30,7 +30,7 @@ const Header = () => {
       <Menu.Item>
         <Link to="/">
           <StaticImage
-            src="../images/arrow2nd-icon.png"
+            src="../../images/arrow2nd-icon.png"
             width={48}
             alt="icon"
           />
