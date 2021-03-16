@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet'
 import { useLocation } from '@reach/router'
 import { useStaticQuery, graphql } from 'gatsby'
 
-const SEO = ({ title, description, image, article }) => {
+const SEO = ({ title, desc, image, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(
     graphql`
@@ -41,18 +41,17 @@ const SEO = ({ title, description, image, article }) => {
 
   const seo = {
     title: title || defaultTitle,
-    description: description || defalutDescription,
-    image: `${siteUrl}${image || defaultImage}`,
-    url: `${siteUrl}${pathname}`
+    description: desc || defalutDescription,
+    image: `${siteUrl.slice(0, -1)}${image || defaultImage}`,
+    url: `${siteUrl.slice(0, -1)}${pathname}`
   }
 
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <html lang="ja" />
-      <meta charset="utf-8" />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <meta property="og:url" content={seo.image} />
+      <meta property="og:url" content={seo.url} />
       {(article ? true : null) && <meta property="og:type" content="article" />}
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
@@ -68,14 +67,14 @@ const SEO = ({ title, description, image, article }) => {
 
 SEO.defaultProps = {
   title: ``,
-  description: ``,
+  desc: ``,
   image: ``,
   article: false
 }
 
 SEO.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string,
+  desc: PropTypes.string,
   image: PropTypes.string,
   article: PropTypes.bool
 }
