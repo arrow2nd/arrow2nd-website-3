@@ -1,5 +1,6 @@
 .navbar {
-  padding: 10px 20px  0 10px;
+  padding: 10px 20px 0 10px;
+  margin-bottom: 20px !important;
 }
 
 .link {
@@ -10,6 +11,6 @@
 }
 
 .link:hover {
-  color: #629DF7;
+  color: #629df7;
   letter-spacing: 4px;
 }
