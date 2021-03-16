@@ -1,13 +1,13 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 
-import Layout from '../layout'
-import SEO from '../seo'
-import Title from '../title'
+import Layout from '../layout/layout'
+import SEO from '../common/seo'
+import Title from '../common/title'
 import Button from './button'
 import CardGroup from './cardgroup'
 
-const WLayout = ({ title, items }) => (
+const Category = ({ title, items }) => (
   <Layout>
     <SEO title={title} />
     <Title name="Works" subtext="test" />
@@ -16,7 +16,7 @@ const WLayout = ({ title, items }) => (
   </Layout>
 )
 
-WLayout.propTypes = {
+Category.propTypes = {
   title: PropTypes.string.isRequired,
   items: PropTypes.arrayOf(
     PropTypes.exact({
@@ -28,4 +28,4 @@ WLayout.propTypes = {
   )
 }
 
-export default WLayout
+export default Category

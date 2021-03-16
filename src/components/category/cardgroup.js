@@ -1,32 +1,19 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
-import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Card as SUCard } from 'semantic-ui-react'
 
+import { useImage } from '../common/useImage'
+
 const CardGroup = ({ items }) => {
-  const { image } = useStaticQuery(graphql`
-    query {
-      image: allFile {
-        edges {
-          node {
-            id
-            relativePath
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
-        }
-      }
-    }
-  `)
+  const images = useImage()
 
   const cards = items.map((item) => {
-    const img = image.edges.find((e) => e.node.relativePath === item.image)
-    if (!img) return null
-    const imageData = getImage(img.node)
+    const image = images.find((e) => e.node.relativePath === item.image)
+    if (!image) return null
+    const imageData = getImage(image.node)
     return (
-      <SUCard key={img.node.id} href={item.href}>
+      <SUCard key={item.image} href={item.href}>
         <GatsbyImage image={imageData} alt={item.title} />
         <SUCard.Content>
           <SUCard.Header content={item.title} />
