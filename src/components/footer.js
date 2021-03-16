@@ -3,26 +3,43 @@ import { Button } from 'semantic-ui-react'
 
 import * as Styles from './footer.module.css'
 
-const button = (color, icon, href) => (
-  <Button
-    circular
-    color={color}
-    icon={icon}
-    href={href}
-    target="_blank"
-    rel="noopener"
-  />
-)
+const links = [
+  {
+    icon: 'twitter',
+    color: 'twitter',
+    href: 'https://twitter.com/arrow_2nd'
+  },
+  {
+    icon: 'at',
+    color: 'blue',
+    href: 'https://imastodon.net/@arrow2nd'
+  },
+  {
+    icon: 'github',
+    color: 'black',
+    href: 'https://github.com/arrow2nd'
+  }
+]
 
-const footer = () => (
-  <footer className={Styles.footer}>
-    <div className={Styles.links}>
-      {button('twitter', 'twitter', 'https://twitter.com/arrow_2nd')}
-      {button('blue', 'at', 'https://imastodon.net/@arrow2nd')}
-      {button('black', 'github', 'https://github.com/arrow2nd')}
-    </div>
-    <div>© {new Date().getFullYear()} arrow2nd</div>
-  </footer>
-)
+const Footer = () => {
+  const buttons = links.map((e) => (
+    <Button
+      key={e.icon}
+      circular
+      color={e.color}
+      icon={e.icon}
+      href={e.href}
+      target="_blank"
+      rel="noopener"
+    />
+  ))
 
-export default footer
+  return (
+    <footer className={Styles.footer}>
+      <div className={Styles.buttons}>{buttons}</div>
+      <div>© {new Date().getFullYear()} arrow2nd</div>
+    </footer>
+  )
+}
+
+export default Footer
