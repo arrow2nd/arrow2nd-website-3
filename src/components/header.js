@@ -12,7 +12,7 @@ const menuItems = [
   },
   {
     name: 'Works',
-    link: '/work/game'
+    link: '/category/game'
   }
 ]
 

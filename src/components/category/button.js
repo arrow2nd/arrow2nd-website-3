@@ -8,15 +8,15 @@ import * as Styles from './button.module.css'
 const categories = [
   {
     name: 'Game',
-    link: '/work/game'
+    link: '/category/game'
   },
   {
     name: 'Tool',
-    link: '/work/tool'
+    link: '/category/tool'
   },
   {
     name: 'LINE Sticker',
-    link: '/work/sticker'
+    link: '/category/sticker'
   }
 ]
 
