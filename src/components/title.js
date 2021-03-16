@@ -5,13 +5,9 @@ import { Header } from 'semantic-ui-react'
 import * as Styles from './title.module.css'
 
 const Title = ({ name, subtext }) => (
-  <Header
-    className={Styles.title}
-    as="h1"
-    textAlign="center"
-    content={name}
-    subheader={subtext}
-  />
+  <div className={Styles.title}>
+    <Header as="h1" textAlign="center" content={name} subheader={subtext} />
+  </div>
 )
 
 Title.defaultProps = {
