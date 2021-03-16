@@ -18,8 +18,10 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-slick": "^0.28.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.3"
+    "semantic-ui-react": "^2.0.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "prettier": "2.2.1"
