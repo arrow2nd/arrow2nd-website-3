@@ -1,13 +1,16 @@
 .footer {
-  margin-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 
 .buttons {
-  margin-bottom: 15px;
+  margin: 15px 0 25px 0;
 }
 
 .buttons a {
   margin: 0 10px 0 10px !important;
+}
+
+.copyright {
+  padding-bottom: 20px;
 }
