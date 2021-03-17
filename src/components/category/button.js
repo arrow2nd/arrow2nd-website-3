@@ -32,7 +32,6 @@ const Button = ({ active }) => {
       content={e.name}
     />
   ))
-
   return <div className={Styles.categories}>{buttons}</div>
 }
 

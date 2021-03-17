@@ -7,25 +7,18 @@ import Title from '../common/title'
 import Button from './button'
 import CardGroup from './cardgroup'
 
-const Category = ({ title, items }) => (
+const Category = ({ title, cards }) => (
   <Layout>
     <SEO title={title} />
     <Title name="Works" subtext="test" />
     <Button active={title} />
-    <CardGroup items={items} />
+    <CardGroup items={cards} />
   </Layout>
 )
 
 Category.propTypes = {
   title: PropTypes.string.isRequired,
-  items: PropTypes.arrayOf(
-    PropTypes.exact({
-      title: PropTypes.string.isRequired,
-      desc: PropTypes.string,
-      image: PropTypes.string.isRequired,
-      href: PropTypes.string.isRequired
-    })
-  )
+  cards: PropTypes.array
 }
 
 export default Category

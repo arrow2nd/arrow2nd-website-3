@@ -21,7 +21,7 @@ const SEO = ({ title, desc, image, article }) => {
             defalutTitle: title
             titleTemplate
             defalutDescription: description
-            siteUrl: url
+            originUrl: url
             defaultImage: image
             twitterUsername
           }
@@ -34,16 +34,18 @@ const SEO = ({ title, desc, image, article }) => {
     defaultTitle,
     titleTemplate,
     defalutDescription,
-    siteUrl,
+    originUrl,
     defaultImage,
     twitterUsername
   } = site.siteMetadata
 
+  const siteUrl = originUrl.slice(0, -1)
+
   const seo = {
     title: title || defaultTitle,
     description: desc || defalutDescription,
-    image: `${siteUrl.slice(0, -1)}${image || defaultImage}`,
-    url: `${siteUrl.slice(0, -1)}${pathname}`
+    image: `${siteUrl}${image || defaultImage}`,
+    url: `${siteUrl}${pathname}`
   }
 
   return (
