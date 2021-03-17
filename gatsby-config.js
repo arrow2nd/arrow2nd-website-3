@@ -26,8 +26,8 @@ module.exports = {
         name: `Cat-Hat`,
         short_name: `Cat-Hat`,
         start_url: `/`,
-        background_color: `#663399`, // TODO: 後で変える
-        theme_color: `#663399`,
+        background_color: `#faf8f7`,
+        theme_color: `#faf8f7`,
         display: `minimal-ui`,
         icon: `src/images/arrow2nd-icon.png`
       }
