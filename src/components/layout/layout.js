@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Container } from 'semantic-ui-react'
 
+import '../../styles/global.css'
 import Header from './header'
 import Footer from './footer'
 
