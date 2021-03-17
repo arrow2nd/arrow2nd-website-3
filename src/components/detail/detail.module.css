@@ -1,0 +1,18 @@
+.title {
+  padding: 14px;
+}
+
+.backButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.hr {
+  margin: 5px auto 8px auto;
+  background-color: #629df7;
+  border-radius: 5px;
+  display: block;
+  width: 15px;
+  height: 5px;
+}

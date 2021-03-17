@@ -1,0 +1,8 @@
+.buttons {
+  text-align: center;
+  padding: 14px;
+}
+
+.buttons button {
+  margin: 0 5px !important;
+}
