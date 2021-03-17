@@ -4,21 +4,15 @@ import { Header } from 'semantic-ui-react'
 
 import * as Styles from './title.module.css'
 
-const Title = ({ name, subtext }) => (
+const Title = ({ name }) => (
   <div className={Styles.title}>
     <Header as="h1" textAlign="center" content={name} />
     <div className={Styles.hr} />
   </div>
 )
 
-Title.defaultProps = {
-  name: ``,
-  subtext: ``
-}
-
 Title.propTypes = {
-  name: PropTypes.string.isRequired,
-  subtext: PropTypes.string
+  name: PropTypes.string.isRequired
 }
 
 export default Title
