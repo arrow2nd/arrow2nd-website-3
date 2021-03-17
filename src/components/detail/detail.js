@@ -4,9 +4,9 @@ import { Link } from 'gatsby'
 import { Header, Button } from 'semantic-ui-react'
 
 import SEO from '../common/seo'
+import Section from '../common/section'
 import Layout from '../layout/layout'
 import Carousel from './carousel'
-import Section from './section'
 import Links from './links'
 import { useSeoImage } from './useSeoImage'
 
