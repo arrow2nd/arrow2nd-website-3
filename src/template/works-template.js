@@ -1,12 +1,21 @@
 import * as React from 'react'
 
-import Detail from '../../components/detail/detail'
+import Detail from '../components/detail/detail'
 
-const images = ['path/to/image']
+const images = [
+  'works//_1.jpg',
+  'works//_2.jpg',
+  'works//_3.jpg',
+  'works//_4.jpg'
+]
 
 const sections = [
   {
-    title: '',
+    title: '概要',
+    text: ''
+  },
+  {
+    title: '使用技術',
     text: ''
   }
 ]
@@ -24,7 +33,6 @@ const Page = () => (
   <Detail
     category=""
     title=""
-    desc=""
     images={images}
     sections={sections}
     links={links}
