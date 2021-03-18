@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Detail from '../components/detail/detail'
+import Detail from '../../components/detail/detail'
 
 const images = [
   'works//_1.jpg',
