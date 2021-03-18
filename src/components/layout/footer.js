@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { Button } from 'semantic-ui-react'
 
-import linkButtonData from '../../data/link-button-data'
+import linkButtons from '../../data/link-buttons'
 import * as Styles from './footer.module.css'
 
 const Footer = () => {
-  const buttons = linkButtonData.map((e) => (
+  const buttons = linkButtons.map((e) => (
     <Button
       key={e.icon}
       circular

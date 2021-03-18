@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { Button as SUButton } from 'semantic-ui-react'
 
-import categoryData from '../../data/category-data'
+import categoryButtons from '../../data/category-buttons'
 import * as Styles from './button.module.css'
 
 const Button = ({ active }) => {
-  const buttons = categoryData.map((e) => (
+  const buttons = categoryButtons.map((e) => (
     <SUButton
       key={e.name}
       circular

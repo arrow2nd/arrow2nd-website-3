@@ -1,4 +1,4 @@
-const otherWorkData = [
+const otherCards = [
   {
     title: 'test',
     desc: 'desc',
@@ -7,4 +7,4 @@ const otherWorkData = [
   }
 ]
 
-export default otherWorkData
+export default otherCards

@@ -1,4 +1,4 @@
-const menuItemData = [
+const pageLinks = [
   {
     name: 'About',
     desc: 'わたしについて',
@@ -11,4 +11,4 @@ const menuItemData = [
   }
 ]
 
-export default menuItemData
+export default pageLinks

@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 import Category from '../../components/category/category'
-import gameWorkData from '../../data/game-work-data'
+import gameCards from '../../data/works/game-cards'
 
-const Game = () => <Category title="Game" cards={gameWorkData} />
+const Game = () => <Category title="Game" cards={gameCards} />
 
 export default Game

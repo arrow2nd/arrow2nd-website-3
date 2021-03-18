@@ -1,4 +1,4 @@
-const categoryData = [
+const categoryButtons = [
   {
     name: 'Game',
     to: '/category/game'
@@ -13,4 +13,4 @@ const categoryData = [
   }
 ]
 
-export default categoryData
+export default categoryButtons

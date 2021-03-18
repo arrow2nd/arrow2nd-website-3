@@ -1,4 +1,4 @@
-const linkButtonData = [
+const linkButtons = [
   {
     name: 'Twitter',
     icon: 'twitter',
@@ -19,4 +19,4 @@ const linkButtonData = [
   }
 ]
 
-export default linkButtonData
+export default linkButtons

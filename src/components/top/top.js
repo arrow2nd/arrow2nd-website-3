@@ -6,12 +6,12 @@ import { Button, Segment, Grid } from 'semantic-ui-react'
 import SEO from '../common/seo'
 import Title from '../common/title'
 import Footer from '../layout/footer'
-import menuItemData from '../../data/menu-item-data'
+import pageLinks from '../../data/page-links'
 
 import * as Styles from './top.module.css'
 
 const Top = () => {
-  const buttons = menuItemData.map((e) => (
+  const buttons = pageLinks.map((e) => (
     <Grid.Column className={Styles.column} key={e.name}>
       <Button
         circular

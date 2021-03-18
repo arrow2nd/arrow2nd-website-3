@@ -1,4 +1,4 @@
-const stickerWorkData = [
+const stickerCards = [
   {
     title: 'test',
     desc: 'desc',
@@ -7,4 +7,4 @@ const stickerWorkData = [
   }
 ]
 
-export default stickerWorkData
+export default stickerCards

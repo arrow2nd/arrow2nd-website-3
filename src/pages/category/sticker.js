@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 import Category from '../../components/category/category'
-import stickerWorkData from '../../data/sticker-work-data'
+import stickerCards from '../../data/works/sticker-cards'
 
-const Sticker = () => <Category title="LINE Sticker" cards={stickerWorkData} />
+const Sticker = () => <Category title="LINE Sticker" cards={stickerCards} />
 
 export default Sticker

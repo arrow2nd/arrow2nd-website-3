@@ -1,4 +1,4 @@
-const aboutData = [
+const aboutSections = [
   {
     title: '好きなこと',
     text: 'なにかつくること / Twitterみること / 餃子食べること'
@@ -13,4 +13,4 @@ const aboutData = [
   }
 ]
 
-export default aboutData
+export default aboutSections
