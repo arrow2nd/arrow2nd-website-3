@@ -6,7 +6,7 @@ import SEO from '../components/common/seo'
 import Title from '../components/common/title'
 import Section from '../components/common/section'
 import Layout from '../components/layout/layout'
-import aboutSections from '../data/about-sections'
+import aboutSections from '../data/about/about-sections'
 
 const About = () => (
   <Layout>

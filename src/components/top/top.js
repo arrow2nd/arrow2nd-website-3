@@ -6,7 +6,7 @@ import { Button, Segment, Grid } from 'semantic-ui-react'
 import SEO from '../common/seo'
 import Title from '../common/title'
 import Footer from '../layout/footer'
-import pageLinks from '../../data/page-links'
+import pageLinks from '../../data/common/page-links'
 
 import * as Styles from './top.module.css'
 

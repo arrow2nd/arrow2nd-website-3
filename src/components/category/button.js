@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { Button as SUButton } from 'semantic-ui-react'
 
-import categoryButtons from '../../data/category-buttons'
+import categoryButtons from '../../data/common/category-buttons'
 import * as Styles from './button.module.css'
 
 const Button = ({ active }) => {

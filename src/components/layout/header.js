@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Menu } from 'semantic-ui-react'
 
-import pageLinks from '../../data/page-links'
+import pageLinks from '../../data/common/page-links'
 import * as Styles from './header.module.css'
 
 const Header = () => {

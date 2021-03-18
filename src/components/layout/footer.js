@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Button } from 'semantic-ui-react'
 
-import linkButtons from '../../data/link-buttons'
+import linkButtons from '../../data/common/link-buttons'
 import * as Styles from './footer.module.css'
 
 const Footer = () => {
