@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Cat Hat`,
-    titleTemplate: `%s | Cat Hat`,
+    title: `arrow2nd`,
+    titleTemplate: `%s | arrow2nd`,
     description: `あろーがつくったものをまとめたサイト`,
     author: `arrow2nd`,
     url: `https://arrow2nd.github.io/`,
