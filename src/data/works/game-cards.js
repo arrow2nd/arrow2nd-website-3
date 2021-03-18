@@ -2,7 +2,7 @@ const gameCards = [
   {
     title: 'まーじゃんのようなもの。',
     desc: 'ぽんこつ4人打ち麻雀ゲーム',
-    image: 'works/game/mj_3ds_1.jpg',
+    image: 'works/game/mj_3ds_1.png',
     href: '/game/mj3ds'
   },
   {
