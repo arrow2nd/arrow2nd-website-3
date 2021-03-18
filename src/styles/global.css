@@ -1,8 +1,8 @@
 body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   background-color: #faf8f7;
 }
 
-body,
 h1,
 h2,
 h3,
@@ -11,7 +11,11 @@ h5,
 a,
 p,
 .ui.card > .content > .header,
-.ui.cards > .card > .content > .header {
+.ui.cards > .card > .content > .header,
+.ui.card > .content > .description,
+.ui.cards > .card > .content > .description {
   font-family: 'M PLUS Rounded 1c', sans-serif !important;
-  color: #1c1c1c;
+
+  /* Windowsでのジャギー対策 */
+  transform: rotate(0.05deg);
 }
