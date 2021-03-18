@@ -11,11 +11,11 @@ const Links = ({ items }) => {
       circular
       icon={e.icon}
       color={e.color}
-      content={e.name}
       as="a"
       href={e.href}
       target="_blank"
       rel="noopener"
+      content={e.name}
     />
   ))
   return <div className={Styles.buttons}>{contents}</div>

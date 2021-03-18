@@ -39,6 +39,7 @@ const SEO = ({ title, desc, image, article }) => {
     twitterUsername
   } = site.siteMetadata
 
+  // URL末尾のスラッシュを削除
   const siteUrl = originUrl.slice(0, -1)
 
   const seo = {

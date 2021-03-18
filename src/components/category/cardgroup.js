@@ -1,7 +1,7 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { Card as SUCard } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 
 import { useImage } from '../common/useImage'
 
@@ -12,21 +12,22 @@ const CardGroup = ({ items }) => {
     const image = images.find((e) => e.node.relativePath === item.image)
     if (!image) return null
     const imageData = getImage(image.node)
+
     return (
-      <SUCard key={item.image} href={item.href}>
+      <Card key={item.image} href={item.href}>
         <GatsbyImage image={imageData} alt={item.title} />
-        <SUCard.Content>
-          <SUCard.Header content={item.title} />
-          <SUCard.Description content={item.desc} />
-        </SUCard.Content>
-      </SUCard>
+        <Card.Content>
+          <Card.Header content={item.title} />
+          <Card.Description content={item.desc} />
+        </Card.Content>
+      </Card>
     )
   })
 
   return (
-    <SUCard.Group stackable itemsPerRow={3}>
+    <Card.Group stackable itemsPerRow={3}>
       {cards}
-    </SUCard.Group>
+    </Card.Group>
   )
 }
 

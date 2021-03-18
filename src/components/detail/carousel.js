@@ -15,7 +15,9 @@ const Carousel = ({ items }) => {
 
   const carouselImages = items.map((filename, idx) => {
     const image = images.find((e) => e.node.relativePath === filename)
+    if (!image) return null
     const imageData = getImage(image.node)
+
     return (
       <div key={filename}>
         <GatsbyImage

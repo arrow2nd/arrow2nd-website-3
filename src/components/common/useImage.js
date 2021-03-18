@@ -16,5 +16,6 @@ export const useImage = () => {
       }
     }
   `)
+
   return image.edges
 }

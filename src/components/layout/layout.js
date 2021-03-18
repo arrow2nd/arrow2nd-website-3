@@ -5,19 +5,15 @@ import { Container } from 'semantic-ui-react'
 import Header from './header'
 import Footer from './footer'
 
-const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      <Container>
-        <div>
-          <main>{children}</main>
-        </div>
-        <Footer />
-      </Container>
-    </>
-  )
-}
+const Layout = ({ children }) => (
+  <>
+    <Header />
+    <Container>
+      <main>{children}</main>
+      <Footer />
+    </Container>
+  </>
+)
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
