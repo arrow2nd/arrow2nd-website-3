@@ -1,15 +1,15 @@
 const categoryData = [
   {
     name: 'Game',
-    link: '/category/game'
+    to: '/category/game'
   },
   {
     name: 'Other',
-    link: '/category/other'
+    to: '/category/other'
   },
   {
     name: 'LINE Sticker',
-    link: '/category/sticker'
+    to: '/category/sticker'
   }
 ]
 
