@@ -1,28 +1,11 @@
 import * as React from 'react'
 import { Button } from 'semantic-ui-react'
 
+import linkButtonData from '../../data/link-button-data'
 import * as Styles from './footer.module.css'
 
-const links = [
-  {
-    icon: 'twitter',
-    color: 'twitter',
-    href: 'https://twitter.com/arrow_2nd'
-  },
-  {
-    icon: 'at',
-    color: 'blue',
-    href: 'https://imastodon.net/@arrow2nd'
-  },
-  {
-    icon: 'github',
-    color: 'black',
-    href: 'https://github.com/arrow2nd'
-  }
-]
-
 const Footer = () => {
-  const buttons = links.map((e) => (
+  const buttons = linkButtonData.map((e) => (
     <Button
       key={e.icon}
       circular

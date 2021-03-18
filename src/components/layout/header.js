@@ -3,23 +3,13 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Menu } from 'semantic-ui-react'
 
+import menuItemData from '../../data/menu-item-data'
 import * as Styles from './header.module.css'
 
-const menuItems = [
-  {
-    name: 'About',
-    link: '/about'
-  },
-  {
-    name: 'Works',
-    link: '/category/game'
-  }
-]
-
 const Header = () => {
-  const items = menuItems.map((item) => (
+  const items = menuItemData.map((item) => (
     <Menu.Item key={item.name}>
-      <Link className={Styles.link} to={item.link}>
+      <Link className={Styles.link} to={item.to}>
         {item.name}
       </Link>
     </Menu.Item>
