@@ -9,7 +9,7 @@ const gameCards = [
     title: 'まーじゃんのようなもの。for Switch',
     desc: 'Switchで遊べるやさしい4人打ち麻雀ゲーム',
     image: 'works/game/mj_sw_1.jpg',
-    href: '/game/mjSwitch'
+    href: '/game/mjswitch'
   },
   {
     title: 'にゃんこだいせんせぇ',
