@@ -44,7 +44,7 @@ const SEO = ({ title, desc, image, article }) => {
 
   const seo = {
     title: title || defaultTitle,
-    description: desc || defaultDescription,
+    description: defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`
   }
@@ -70,14 +70,12 @@ const SEO = ({ title, desc, image, article }) => {
 
 SEO.defaultProps = {
   title: ``,
-  desc: ``,
   image: ``,
   article: false
 }
 
 SEO.propTypes = {
   title: PropTypes.string.isRequired,
-  desc: PropTypes.string,
   image: PropTypes.string,
   article: PropTypes.bool
 }

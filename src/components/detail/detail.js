@@ -12,11 +12,11 @@ import { useSeoImage } from './useSeoImage'
 
 import * as Styles from './detail.module.css'
 
-const Detail = ({ category, title, desc, images, sections, links }) => {
+const Detail = ({ category, title, images, sections, links }) => {
   const seoImage = useSeoImage(images[0])
   return (
     <Layout>
-      <SEO title={title} desc={desc} image={seoImage} article />
+      <SEO title={title} image={seoImage} article />
       <div className={Styles.title}>
         <Carousel items={images} />
         <Header as="h2" content={title} textAlign="center" />
@@ -39,7 +39,6 @@ const Detail = ({ category, title, desc, images, sections, links }) => {
 Detail.defaultProps = {
   category: '',
   title: '',
-  desc: '',
   images: null,
   sections: null,
   links: null
@@ -48,7 +47,6 @@ Detail.defaultProps = {
 Detail.propTypes = {
   category: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  desc: PropTypes.string,
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   sections: PropTypes.array.isRequired,
   links: PropTypes.array
