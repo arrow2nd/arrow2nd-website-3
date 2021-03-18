@@ -32,10 +32,10 @@ const CardGroup = ({ items }) => {
 
 CardGroup.defaultProps = {
   items: {
-    title: ``,
-    desc: ``,
-    image: ``,
-    href: ``
+    title: '',
+    desc: '',
+    image: '',
+    href: ''
   }
 }
 

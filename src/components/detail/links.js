@@ -23,10 +23,10 @@ const Links = ({ items }) => {
 
 Links.defaultProps = {
   items: {
-    name: ``,
-    icon: ``,
-    color: ``,
-    href: ``
+    name: '',
+    icon: '',
+    color: '',
+    href: ''
   }
 }
 

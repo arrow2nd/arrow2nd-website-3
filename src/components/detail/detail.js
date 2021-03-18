@@ -36,6 +36,15 @@ const Detail = ({ category, title, desc, images, sections, links }) => {
   )
 }
 
+Detail.defaultProps = {
+  category: '',
+  title: '',
+  desc: '',
+  images: null,
+  sections: null,
+  links: null
+}
+
 Detail.propTypes = {
   category: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
