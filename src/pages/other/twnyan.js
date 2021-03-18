@@ -10,6 +10,10 @@ const sections = [
     text: 'ターミナル上で動くシンプルなTwitterクライアントです'
   },
   {
+    title: 'にゃーん',
+    text: 'いつでもどこでも コマンド2つで「にゃーん」できます'
+  },
+  {
     title: '使用技術',
     text: 'Go / Twitter API / CircleCI'
   }

@@ -16,12 +16,12 @@ const sections = [
       '問題とその答えが合っているかをすばやく『シュッ』と採点する脳トレゲームです'
   },
   {
-    title: '公開キー',
-    text: '4NKEKN4XS'
+    title: 'コンテスト',
+    text: '第五回プチコン大喜利 TSUKUMO賞を頂きました'
   },
   {
-    title: 'その他',
-    text: '第五回プチコン大喜利 TSUKUMO賞を頂きました'
+    title: '公開キー',
+    text: '4NKEKN4XS'
   }
 ]
 

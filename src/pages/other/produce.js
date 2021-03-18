@@ -15,6 +15,11 @@ const sections = [
       'アイドルマスターシリーズに登場するアイドルのプロフィールを検索できるLINEBotです'
   },
   {
+    title: '特徴',
+    text:
+      '名前の一部やひらがなからでも検索できるので、うろ覚えでもみつけられます'
+  },
+  {
     title: '使用技術',
     text: 'Node.js / LINE Messaging API / im@sparql(SPARQL) / Vercel / CircleCI'
   }
