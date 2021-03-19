@@ -29,7 +29,7 @@ const Top = () => {
   return (
     <div className={Styles.outer}>
       <SEO />
-      <Segment className={Styles.segment}>
+      <Segment className={Styles.segment} basic>
         <StaticImage
           className={Styles.image}
           src="../../images/arrow2nd-icon.png"
