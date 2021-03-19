@@ -1,9 +1,8 @@
 # arrow2nd.github.io
 [![Github Pages](https://github.com/arrow2nd/arrow2nd.github.io/actions/workflows/gh-pages.yaml/badge.svg?branch=main)](https://github.com/arrow2nd/arrow2nd.github.io/actions/workflows/gh-pages.yaml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
-![GitHub](https://img.shields.io/github/license/arrow2nd/arrow2nd.github.io)
 
-つくったものをまとめたページ
+つくったものをまとめたページ 🐾
 > https://arrow2nd.github.io/
 
 ## Build Setup
