@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import { Container } from 'semantic-ui-react'
+import { Container, Segment } from 'semantic-ui-react'
 
 import SEO from '../components/common/seo'
 import Title from '../components/common/title'
@@ -12,9 +12,11 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <Title name="About" />
-    <Container text textAlign="center">
+    <Segment basic textAlign="center">
       <StaticImage src="../images/arrow2nd-icon.png" alt="icon" width={200} />
       <h2>はじめまして、あろーです</h2>
+    </Segment>
+    <Container text>
       <Section items={aboutSections} />
     </Container>
   </Layout>
