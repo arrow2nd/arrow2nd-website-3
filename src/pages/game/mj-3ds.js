@@ -12,7 +12,11 @@ const images = [
 const sections = [
   {
     title: '概要',
-    text: 'プチコン3号（3DS）で遊べる、4人打ち麻雀ゲームです'
+    text: 'プチコン3号（3DS）で遊べる 4人打ち麻雀ゲームです'
+  },
+  {
+    title: '特徴',
+    text: '比較的マイナーなローカル役も採用しています（ON/OFF可能です）'
   },
   {
     title: '公開キー',

@@ -6,7 +6,8 @@ const images = [
   'works/game/mj-sw-1.png',
   'works/game/mj-sw-2.png',
   'works/game/mj-sw-3.png',
-  'works/game/mj-sw-4.png'
+  'works/game/mj-sw-4.png',
+  'works/game/mj-sw-5.png'
 ]
 
 const sections = [
@@ -15,9 +16,15 @@ const sections = [
     text: 'プチコン4（Switch）で遊べる「初心者にやさしい」4人打ち麻雀ゲームです'
   },
   {
+    title: '特徴',
+    text:
+      '捨てる牌をおすすめしてくれる機能や ねこの見た目/思考をカスタムできる機能があります'
+  },
+
+  {
     title: 'ひとこと',
     text:
-      'プレイ中でもみれる役図鑑や簡単な用語辞典など、とっつきやすい麻雀を目指して開発しました'
+      'プレイ中でもみれる役図鑑や用語辞典など とっつきやすい麻雀を目指して開発しました'
   },
   {
     title: '公開キー',
