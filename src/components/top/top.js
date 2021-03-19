@@ -29,7 +29,7 @@ const Top = () => {
   return (
     <div className={Styles.outer}>
       <SEO />
-      <Segment className={Styles.segment} basic>
+      <Segment className={Styles.segment}>
         <StaticImage
           className={Styles.image}
           src="../../images/arrow2nd-icon.png"
@@ -37,7 +37,9 @@ const Top = () => {
           width={200}
         />
         <Title name="arrow2nd" as="h2" />
-        <Grid columns={1}>{buttons}</Grid>
+        <Grid className={Styles.buttons} columns={1}>
+          {buttons}
+        </Grid>
         <Footer />
       </Segment>
     </div>

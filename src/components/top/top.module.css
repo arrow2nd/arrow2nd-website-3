@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.buttons {
+  margin-bottom: 10px !important;
+}
+
 .button {
   width: 150px;
 }

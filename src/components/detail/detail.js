@@ -25,16 +25,16 @@ const Detail = ({ category, title, images, sections, links }) => {
       <Container text>
         <Section items={sections} />
         <Links items={links} />
-        <div className={Styles.backButton}>
-          <Button
-            circular
-            icon="angle left"
-            content="Back"
-            as={Link}
-            to={`/category/${category}`}
-          />
-        </div>
       </Container>
+      <div className={Styles.backButton}>
+        <Button
+          circular
+          icon="angle left"
+          content="Back"
+          as={Link}
+          to={`/category/${category}`}
+        />
+      </div>
     </Layout>
   )
 }

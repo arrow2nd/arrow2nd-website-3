@@ -19,3 +19,7 @@ p,
   /* Windowsでのジャギー対策 */
   transform: rotate(0.05deg);
 }
+
+.ui.cards {
+  margin: 0;
+}
