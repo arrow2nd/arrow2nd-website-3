@@ -3,9 +3,9 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/game/syntax_1.jpg',
-  'works/game/syntax_2.jpg',
-  'works/game/syntax_3.jpg'
+  'works/game/syntax-1.png',
+  'works/game/syntax-2.png',
+  'works/game/syntax-3.png'
 ]
 
 const sections = [
