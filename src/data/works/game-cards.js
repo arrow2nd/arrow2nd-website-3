@@ -14,13 +14,13 @@ const gameCards = [
   {
     title: 'にゃんこだいせんせぇ',
     desc: '問題を『シュッ』と採点する脳トレゲーム',
-    image: 'works/game/nyanko-1.jpg',
+    image: 'works/game/nyanko-1.png',
     href: '/game/nyanko-daisensei'
   },
   {
     title: '#Syntax',
     desc: '文字を並び替えてプチコンの命令を作るパズル',
-    image: 'works/game/syntax-1.jpg',
+    image: 'works/game/syntax-1.png',
     href: '/game/syntax'
   }
 ]
