@@ -5,7 +5,7 @@ module.exports = {
     description: `あろーがつくったものをまとめたサイト`,
     author: `arrow2nd`,
     url: `https://arrow2nd.github.io/`,
-    image: `/icons/icon-96x96.png`,
+    image: `/icons/icon-256x256.png`,
     twitterUsername: `@arrow_2nd`
   },
   plugins: [
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cat-Hat`,
-        short_name: `Cat-Hat`,
+        name: `arrow2nd`,
+        short_name: `arrow2nd`,
         start_url: `/`,
         background_color: `#faf8f7`,
         theme_color: `#faf8f7`,
