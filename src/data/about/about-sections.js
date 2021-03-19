@@ -1,7 +1,7 @@
 const aboutSections = [
   {
     title: '好きなこと',
-    text: 'なにかつくること / Twitteをみること / 餃子を食べること'
+    text: 'なにかつくること / Twitterをみること / 餃子を食べること'
   },
   {
     title: '好きなアーティスト',
