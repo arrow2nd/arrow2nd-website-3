@@ -10,3 +10,7 @@
 .buttons a {
   margin: 0 10px !important;
 }
+
+.copyright {
+  display: inline-block;
+}

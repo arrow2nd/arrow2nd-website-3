@@ -9,7 +9,7 @@ const Section = ({ items }) => {
       <p>{e.text}</p>
     </Segment>
   ))
-  return <Segment basic>{contents}</Segment>
+  return <div>{contents}</div>
 }
 
 Section.propTypes = {

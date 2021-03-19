@@ -1,7 +1,7 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import { Header, Button } from 'semantic-ui-react'
+import { Header, Button, Container } from 'semantic-ui-react'
 
 import SEO from '../common/seo'
 import Section from '../common/section'
@@ -22,16 +22,19 @@ const Detail = ({ category, title, images, sections, links }) => {
         <Header as="h2" content={title} textAlign="center" />
         <div className={Styles.hr} />
       </div>
-      <Section items={sections} />
-      <Links items={links} />
-      <Button
-        className={Styles.backButton}
-        circular
-        icon="angle left"
-        content="Back"
-        as={Link}
-        to={`/category/${category}`}
-      />
+      <Container text>
+        <Section items={sections} />
+        <Links items={links} />
+        <div className={Styles.backButton}>
+          <Button
+            circular
+            icon="angle left"
+            content="Back"
+            as={Link}
+            to={`/category/${category}`}
+          />
+        </div>
+      </Container>
     </Layout>
   )
 }

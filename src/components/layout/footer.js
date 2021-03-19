@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <footer className={Styles.footer}>
       <div className={Styles.buttons}>{buttons}</div>
-      <p>© {new Date().getFullYear()} arrow2nd</p>
+      <p className={Styles.copyright}>© {new Date().getFullYear()} arrow2nd</p>
     </footer>
   )
 }
