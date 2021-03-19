@@ -3,10 +3,10 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/game/mj_sw_1.jpg',
-  'works/game/mj_sw_2.jpg',
-  'works/game/mj_sw_3.jpg',
-  'works/game/mj_sw_4.jpg'
+  'works/game/mj-sw-1.png',
+  'works/game/mj-sw-2.png',
+  'works/game/mj-sw-3.png',
+  'works/game/mj-sw-4.png'
 ]
 
 const sections = [

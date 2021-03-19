@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import Detail from '../../components/detail/detail'
 
-const images = ['works/other/sb4ext_1.png', 'works/other/sb4ext_2.png']
+const images = ['works/other/sb4ext-1.png', 'works/other/sb4ext-2.png']
 
 const sections = [
   {

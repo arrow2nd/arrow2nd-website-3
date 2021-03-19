@@ -3,9 +3,9 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/other/produce_1.png',
-  'works/other/produce_2.png',
-  'works/other/produce_3.png'
+  'works/other/produce-1.png',
+  'works/other/produce-2.png',
+  'works/other/produce-3.png'
 ]
 
 const sections = [
