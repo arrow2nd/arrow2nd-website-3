@@ -31,7 +31,14 @@ const Carousel = ({ items }) => {
 
   return (
     <Container className={Styles.carousel} text>
-      <Slider dots infinite autoplay autoplaySpeed={4000} speed={600}>
+      <Slider
+        arrows={false}
+        dots
+        infinite
+        autoplay
+        autoplaySpeed={4000}
+        speed={600}
+      >
         {carouselImages}
       </Slider>
     </Container>
