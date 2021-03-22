@@ -16,7 +16,7 @@ const Detail = ({ category, title, images, sections, links }) => {
   const seoImage = useSeoImage(images[0])
   return (
     <Layout>
-      <SEO title={title} image={seoImage} article />
+      <SEO title={title} image={seoImage} desc={sections[0].text} article />
       <div className={Styles.title}>
         <Carousel items={images} />
         <Header as="h2" content={title} textAlign="center" />

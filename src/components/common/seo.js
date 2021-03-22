@@ -44,7 +44,8 @@ const SEO = ({ title, desc, image, article }) => {
 
   const seo = {
     title: title || defaultTitle,
-    description: defaultDescription,
+    ogpTitle: title ? titleTemplate.replace(/%s/, title) : defaultTitle,
+    description: desc || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`
   }
@@ -56,12 +57,12 @@ const SEO = ({ title, desc, image, article }) => {
       <meta name="image" content={seo.image} />
       <meta property="og:url" content={seo.url} />
       {(article ? true : null) && <meta property="og:type" content="article" />}
-      <meta property="og:title" content={seo.title} />
+      <meta property="og:title" content={seo.ogpTitle} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:image" content={seo.image} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={twitterUsername} />
-      <meta name="twitter:title" content={seo.title} />
+      <meta name="twitter:title" content={seo.ogpTitle} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
     </Helmet>
@@ -69,14 +70,16 @@ const SEO = ({ title, desc, image, article }) => {
 }
 
 SEO.defaultProps = {
-  title: ``,
-  image: ``,
+  title: '',
+  image: '',
+  desc: '',
   article: false
 }
 
 SEO.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string,
+  desc: PropTypes.string,
   article: PropTypes.bool
 }
 
