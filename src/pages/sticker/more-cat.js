@@ -7,11 +7,11 @@ const images = ['works/sticker/more-cat-1.png', 'works/sticker/more-cat-2.png']
 const sections = [
   {
     title: '概要',
-    text: '文字が少なめなのでちょっと使いやすい ねこのスタンプです'
+    text: 'ふっくらしたねこの ちょっと使いやすいスタンプです'
   },
   {
     title: 'ひとこと',
-    text: '「Yes!」と「No...」のスタンプがイチオシです'
+    text: '「Yes!」と「No...」のスタンプが好きです'
   }
 ]
 
