@@ -11,7 +11,7 @@ const sections = [
   },
   {
     title: 'ひとこと',
-    text: '楽しかったのでまた作りたいです'
+    text: 'よく動きます🐱'
   }
 ]
 

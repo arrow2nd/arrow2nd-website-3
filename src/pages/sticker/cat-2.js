@@ -11,7 +11,7 @@ const sections = [
   },
   {
     title: 'ひとこと',
-    text: '「うに。」が一番人気です'
+    text: 'うに'
   }
 ]
 
