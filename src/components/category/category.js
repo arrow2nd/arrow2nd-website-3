@@ -3,14 +3,12 @@ import PropTypes from 'prop-types'
 
 import Layout from '../layout/layout'
 import SEO from '../common/seo'
-import Title from '../common/title'
 import Button from './button'
 import CardGroup from './cardgroup'
 
 const Category = ({ title, cards }) => (
-  <Layout>
+  <Layout title="Works">
     <SEO title={title} />
-    <Title name="Works" subtext="test" />
     <Button active={title} />
     <CardGroup items={cards} />
   </Layout>

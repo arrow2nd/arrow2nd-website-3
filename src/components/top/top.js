@@ -5,7 +5,7 @@ import { Button, Segment, Grid } from 'semantic-ui-react'
 
 import SEO from '../common/seo'
 import Title from '../common/title'
-import Footer from '../layout/footer'
+import AccountLinks from '../common/account-links'
 import pageLinks from '../../data/common/page-links'
 
 import * as Styles from './top.module.css'
@@ -36,11 +36,15 @@ const Top = () => {
           alt="icon"
           width={200}
         />
-        <Title name="arrow2nd" as="h2" />
+        <div className={Styles.title}>
+          <Title name="arrow2nd" as="h2" />
+        </div>
         <Grid className={Styles.buttons} columns={1}>
           {buttons}
         </Grid>
-        <Footer />
+        <div className={Styles.links}>
+          <AccountLinks />
+        </div>
       </Segment>
     </div>
   )

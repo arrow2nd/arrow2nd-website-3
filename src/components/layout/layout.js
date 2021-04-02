@@ -5,19 +5,22 @@ import { Container } from 'semantic-ui-react'
 import Header from './header'
 import Footer from './footer'
 
-import * as Styles from './layout.module.css'
-
-const Layout = ({ children }) => (
+const Layout = ({ title, children }) => (
   <>
-    <Header />
-    <Container className={Styles.container}>
+    <Header title={title} />
+    <Container>
       <main>{children}</main>
     </Container>
     <Footer />
   </>
 )
 
+Layout.defaultProps = {
+  title: ''
+}
+
 Layout.propTypes = {
+  title: PropTypes.string,
   children: PropTypes.node.isRequired
 }
 

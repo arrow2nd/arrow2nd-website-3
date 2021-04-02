@@ -1,9 +1,10 @@
-.title {
-  margin-bottom: 30px !important;
+.title h1 {
+  font-size: 3.5rem !important;
+  letter-spacing: 4px;
 }
 
-.title h1 {
-  font-size: 3rem !important;
+.title h2 {
+  letter-spacing: 1px;
 }
 
 .hr {
