@@ -2,7 +2,11 @@ import * as React from 'react'
 
 import Detail from '../../components/detail/detail'
 
-const images = ['works/other/sb4ext-1.png', 'works/other/sb4ext-2.png']
+const images = [
+  'works/other/sb4ext-1.png',
+  'works/other/sb4ext-2.png',
+  'works/other/sb4ext-3.png'
+]
 
 const sections = [
   {
@@ -11,7 +15,7 @@ const sections = [
   },
   {
     title: '使用技術',
-    text: 'Node.js'
+    text: 'Node.js / TypeScript'
   }
 ]
 
