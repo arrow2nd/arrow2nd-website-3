@@ -10,10 +10,10 @@ import aboutSections from '../data/about/about-sections'
 const About = () => (
   <Layout title="About">
     <SEO title="About" />
-    <Container textAlign="center">
+    <Segment basic textAlign="center">
       <StaticImage src="../images/arrow2nd-icon.png" alt="icon" width={200} />
       <h2>はじめまして、あろーです</h2>
-    </Container>
+    </Segment>
     <Segment basic>
       <Container text>
         <Section items={aboutSections} />
