@@ -12,7 +12,7 @@ const NotFoundPage = () => (
     <Segment basic textAlign="center">
       <Header
         as="h2"
-        content="ページが見つかりませんでした…"
+        content="ページが見つかりませんでした"
         subheader="404 Not Found 😿"
       />
     </Segment>

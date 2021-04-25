@@ -7,7 +7,7 @@ const images = ['works/other/totsuzen-1.png', 'works/other/totsuzen-2.png']
 const sections = [
   {
     title: '概要',
-    text: '突然の死がぱぱっとつくれるLINEBotです'
+    text: ' ＞ 突然の死 ＜ がぱぱっとつくれるLINEBotです'
   },
   {
     title: '使用技術',

@@ -11,7 +11,8 @@ const images = [
 const sections = [
   {
     title: '概要',
-    text: 'SmileBASIC4（プチコン4）のコードをVSCodeで書くための拡張機能です'
+    text:
+      'SmileBASIC4（プチコン4）のコードをVSCodeでいい感じに書くための拡張機能です'
   },
   {
     title: '使用技術',
