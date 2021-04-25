@@ -2,7 +2,7 @@
   "name": "arrow2nd.github.io",
   "private": true,
   "description": "つくったものをまとめたページ",
-  "version": "0.2.2",
+  "version": "0.3.2",
   "author": {"name": "arrow2nd"},
   "license": "MIT",
   "dependencies": {
