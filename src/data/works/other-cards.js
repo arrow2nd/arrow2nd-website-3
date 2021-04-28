@@ -28,6 +28,12 @@ const otherCards = [
     desc: 'SmileBASIC4のVSCode拡張',
     image: 'works/other/sb4ext-1.png',
     href: '/other/sb4-extension'
+  },
+  {
+    title: 'arrow2nd.github.io',
+    desc: 'このページ',
+    image: 'works/other/arrow2nd-github-io-1.png',
+    href: '/other/arrow2nd-github-io'
   }
 ]
 
