@@ -12,6 +12,12 @@ const otherCards = [
     href: '/other/totsuzen-no-shi'
   },
   {
+    title: 'ShinyPoems',
+    desc: 'シャニマス衣装ポエム検索',
+    image: 'works/other/shiny-poems-1.png',
+    href: '/other/shiny-poems'
+  },
+  {
     title: '匿名Player+',
     desc: 'オモコロのラジオを再生するプレイヤー',
     image: 'works/other/tokumei-1.png',
