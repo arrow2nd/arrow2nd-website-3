@@ -14,7 +14,7 @@ const otherCards = [
   {
     title: 'ShinyPoems',
     desc: 'シャニマス衣装ポエム検索',
-    image: 'works/other/shiny-poems-1.png',
+    image: 'works/other/shiny-poems-2.png',
     href: '/other/shiny-poems'
   },
   {

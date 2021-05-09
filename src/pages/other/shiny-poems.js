@@ -4,17 +4,19 @@ import Detail from '../../components/detail/detail'
 
 const images = [
   'works/other/shiny-poems-1.png',
-  'works/other/shiny-poems-2.png'
+  'works/other/shiny-poems-2.png',
+  'works/other/shiny-poems-3.png'
 ]
 
 const sections = [
   {
     title: '概要',
-    text: 'シャイニーカラーズの衣装説明（ポエム）が検索できるサイトです'
+    text: 'シャイニーカラーズの衣装説明（ポエム）の検索・共有ができるサイトです'
   },
   {
     title: '使用技術',
-    text: 'Next.js / TypeScript / Tailwindcss / im@sparql(SPARQL) / Vercel'
+    text:
+      'Next.js / TypeScript / Tailwindcss / Cloudinary / im@sparql(SPARQL) / Vercel'
   }
 ]
 
