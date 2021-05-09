@@ -1,14 +1,12 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
-import { Button, Segment, Grid } from 'semantic-ui-react'
-
+import * as Styles from './top.module.css'
 import SEO from '../common/seo'
 import Title from '../common/title'
 import AccountLinks from '../common/account-links'
 import pageLinks from '../../data/common/page-links'
-
-import * as Styles from './top.module.css'
+import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
+import { Button, Segment, Grid } from 'semantic-ui-react'
 
 const Top = () => {
   const buttons = pageLinks.map((e) => (

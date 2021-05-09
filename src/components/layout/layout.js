@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Container } from 'semantic-ui-react'
-
 import Header from './header'
 import Footer from './footer'
+import { Container } from 'semantic-ui-react'
 
 const Layout = ({ title, children }) => (
   <>

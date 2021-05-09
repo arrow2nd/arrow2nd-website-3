@@ -1,14 +1,12 @@
 import * as React from 'react'
+import * as Styles from './carousel.module.css'
 import PropTypes from 'prop-types'
 import Slider from 'react-slick'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Container } from 'semantic-ui-react'
-
 import { useImage } from '../common/useImage'
-
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import * as Styles from './carousel.module.css'
 
 const Carousel = ({ items }) => {
   const images = useImage()
@@ -16,6 +14,7 @@ const Carousel = ({ items }) => {
   const carouselImages = items.map((filename, idx) => {
     const image = images.find((e) => e.node.relativePath === filename)
     if (!image) return null
+
     const imageData = getImage(image.node)
 
     return (

@@ -1,5 +1,4 @@
 import * as React from 'react'
-
 import Detail from '../../components/detail/detail'
 
 const images = ['works/sticker/cat-2-1.png', 'works/sticker/cat-2-2.png']

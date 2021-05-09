@@ -9,6 +9,7 @@ const Section = ({ items }) => {
       <p>{e.text}</p>
     </Segment>
   ))
+
   return <div>{contents}</div>
 }
 

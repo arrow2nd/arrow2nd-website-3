@@ -1,8 +1,7 @@
 import * as React from 'react'
+import * as Styles from './title.module.css'
 import PropTypes from 'prop-types'
 import { Header } from 'semantic-ui-react'
-
-import * as Styles from './title.module.css'
 
 const Title = ({ name, as }) => (
   <div className={Styles.title}>

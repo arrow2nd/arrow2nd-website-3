@@ -1,11 +1,10 @@
 import * as React from 'react'
-import { StaticImage } from 'gatsby-plugin-image'
-import { Container, Segment } from 'semantic-ui-react'
-
 import SEO from '../components/common/seo'
 import Section from '../components/common/section'
 import Layout from '../components/layout/layout'
 import aboutSections from '../data/about/about-sections'
+import { StaticImage } from 'gatsby-plugin-image'
+import { Container, Segment } from 'semantic-ui-react'
 
 const About = () => (
   <Layout title="About">

@@ -1,6 +1,5 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
-
 import Layout from '../layout/layout'
 import SEO from '../common/seo'
 import Button from './button'

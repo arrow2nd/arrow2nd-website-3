@@ -1,8 +1,7 @@
 import * as React from 'react'
+import * as Styles from './links.module.css'
 import PropTypes from 'prop-types'
 import { Button } from 'semantic-ui-react'
-
-import * as Styles from './links.module.css'
 
 const Links = ({ items }) => {
   const contents = items.map((e) => (
@@ -18,6 +17,7 @@ const Links = ({ items }) => {
       content={e.name}
     />
   ))
+
   return <div className={Styles.buttons}>{contents}</div>
 }
 

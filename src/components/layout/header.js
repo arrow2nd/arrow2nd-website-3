@@ -1,12 +1,11 @@
 import * as React from 'react'
+import * as Styles from './header.module.css'
 import PropTypes from 'prop-types'
+import Title from '../common/title'
+import pageLinks from '../../data/common/page-links'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Menu } from 'semantic-ui-react'
-
-import Title from '../common/title'
-import pageLinks from '../../data/common/page-links'
-import * as Styles from './header.module.css'
 
 const Header = ({ title }) => {
   const items = pageLinks.map((item) => (
