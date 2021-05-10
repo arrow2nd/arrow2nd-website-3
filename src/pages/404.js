@@ -1,8 +1,8 @@
+import { Header, Segment } from 'semantic-ui-react'
 import * as React from 'react'
 import Layout from '../components/layout/layout'
 import SEO from '../components/common/seo'
 import Title from '../components/common/title'
-import { Header, Segment } from 'semantic-ui-react'
 
 const NotFoundPage = () => (
   <Layout>

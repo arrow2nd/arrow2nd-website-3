@@ -10,7 +10,7 @@ const sections = [
   },
   {
     title: 'ひとこと',
-    text: 'うに'
+    text: '「うに」'
   }
 ]
 

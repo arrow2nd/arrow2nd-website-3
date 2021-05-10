@@ -14,7 +14,7 @@ const sections = [
   },
   {
     title: '使用技術',
-    text: 'Gatsby / TypeScript / Semantic UI / React Slick / Github Actions'
+    text: 'Gatsby / TypeScript / Semantic UI / Github Actions / Github Pages'
   }
 ]
 
