@@ -1,6 +1,6 @@
+import { Header, Segment } from 'semantic-ui-react'
 import * as React from 'react'
 import PropTypes from 'prop-types'
-import { Header, Segment } from 'semantic-ui-react'
 
 const Section = ({ items }) => {
   const contents = items.map((e) => (

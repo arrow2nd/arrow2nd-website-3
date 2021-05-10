@@ -1,8 +1,8 @@
+import { Card } from 'semantic-ui-react'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { useImage } from '../common/useImage'
 import * as React from 'react'
 import PropTypes from 'prop-types'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { Card } from 'semantic-ui-react'
-import { useImage } from '../common/useImage'
 
 const CardGroup = ({ items }) => {
   const images = useImage()

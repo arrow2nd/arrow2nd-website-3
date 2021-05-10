@@ -1,3 +1,6 @@
+import { Header, Button, Container, Segment } from 'semantic-ui-react'
+import { Link } from 'gatsby'
+import { useSeoImage } from './useSeoImage'
 import * as React from 'react'
 import * as Styles from './detail.module.css'
 import PropTypes from 'prop-types'
@@ -6,9 +9,6 @@ import Section from '../common/section'
 import Layout from '../layout/layout'
 import Carousel from './carousel'
 import Links from './links'
-import { Link } from 'gatsby'
-import { Header, Button, Container, Segment } from 'semantic-ui-react'
-import { useSeoImage } from './useSeoImage'
 
 const Detail = ({ category, title, images, sections, links }) => {
   const seoImage = useSeoImage(images[0])

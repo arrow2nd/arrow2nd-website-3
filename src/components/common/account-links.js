@@ -1,7 +1,7 @@
+import { Button } from 'semantic-ui-react'
 import * as Styles from './account-links.module.css'
 import * as React from 'react'
 import accountLinks from '../../data/common/account-links'
-import { Button } from 'semantic-ui-react'
 
 const AccountLinks = () => {
   const buttons = accountLinks.map((e) => (

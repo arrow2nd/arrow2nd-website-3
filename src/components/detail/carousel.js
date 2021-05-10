@@ -1,10 +1,10 @@
+import { Container } from 'semantic-ui-react'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { useImage } from '../common/useImage'
 import * as React from 'react'
 import * as Styles from './carousel.module.css'
 import PropTypes from 'prop-types'
 import Slider from 'react-slick'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { Container } from 'semantic-ui-react'
-import { useImage } from '../common/useImage'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
