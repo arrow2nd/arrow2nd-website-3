@@ -4,7 +4,8 @@ import Detail from '../../components/detail/detail'
 const images = [
   'works/other/shiny-poems-1.png',
   'works/other/shiny-poems-2.png',
-  'works/other/shiny-poems-3.png'
+  'works/other/shiny-poems-3.png',
+  'works/other/shiny-poems-4.png'
 ]
 
 const sections = [
