@@ -9,8 +9,12 @@ const sections = [
     text: 'ターミナル上で動くシンプルなTwitterクライアントです'
   },
   {
+    title: '特徴',
+    text: '読むことに特化したデザイン / 疑似 UserStream モード搭載'
+  },
+  {
     title: 'にゃーん',
-    text: 'コマンド2つで「にゃーん」できる機能があります🐱'
+    text: '"twnyan tw" で「にゃーん」できます🐱'
   },
   {
     title: '使用技術',

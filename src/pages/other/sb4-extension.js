@@ -14,6 +14,10 @@ const sections = [
       'SmileBASIC4（プチコン4）のコードをVSCodeでいい感じに書くための拡張機能です'
   },
   {
+    title: '機能',
+    text: 'シンタックスハイライト / 入力補完 / 宣言のホバー表示 / スニペット'
+  },
+  {
     title: '使用技術',
     text: 'Node.js / TypeScript'
   }

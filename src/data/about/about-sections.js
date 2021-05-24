@@ -9,7 +9,7 @@ const aboutSections = [
   },
   {
     title: 'ちょっとわかる',
-    text: 'C / Go / JavaScript / Node.js / React / SmileBASIC'
+    text: 'C / Go / JavaScript / Node.js / React / Smile BASIC'
   }
 ]
 
