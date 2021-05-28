@@ -10,7 +10,7 @@ const sections = [
   },
   {
     title: '使用技術',
-    text: 'Electron / React.js / TypeScript / webpack / Github Actions'
+    text: 'Electron / React / TypeScript / webpack / Github Actions'
   }
 ]
 

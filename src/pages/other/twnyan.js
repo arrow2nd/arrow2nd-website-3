@@ -10,7 +10,7 @@ const sections = [
   },
   {
     title: '特徴',
-    text: '読むことに特化したデザイン / 疑似 UserStream モード搭載'
+    text: '読むことに特化したデザイン / 疑似UserStreamモード搭載'
   },
   {
     title: 'にゃーん',

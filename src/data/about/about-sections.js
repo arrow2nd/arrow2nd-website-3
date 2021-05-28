@@ -8,8 +8,8 @@ const aboutSections = [
     text: 'フレデリック / 平井堅 / 中村さんそ'
   },
   {
-    title: 'ちょっとわかる',
-    text: 'C / Go / JavaScript / Node.js / React / Smile BASIC'
+    title: 'ほんのちょっとわかる',
+    text: 'C / Go / JavaScript / Node.js / React / SmileBASIC'
   }
 ]
 
