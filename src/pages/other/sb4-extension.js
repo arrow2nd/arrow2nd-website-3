@@ -2,16 +2,15 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/other/sb4ext-1.png',
-  'works/other/sb4ext-2.png',
-  'works/other/sb4ext-3.png'
+  'other/sb4ext-1.png',
+  'other/sb4ext-2.png',
+  'other/sb4ext-3.png'
 ]
 
 const sections = [
   {
     title: '概要',
-    text:
-      'SmileBASIC4（プチコン4）のコードをVSCodeでいい感じに書くための拡張機能です'
+    text: 'SmileBASIC4（プチコン4）のコードをVSCodeでいい感じに書くための拡張機能です'
   },
   {
     title: '機能',
@@ -34,8 +33,7 @@ const links = [
     name: '配布ページ',
     icon: 'microsoft',
     color: 'blue',
-    href:
-      'https://marketplace.visualstudio.com/items?itemName=arrow2nd.sb4-extension'
+    href: 'https://marketplace.visualstudio.com/items?itemName=arrow2nd.sb4-extension'
   }
 ]
 

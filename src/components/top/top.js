@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import * as Styles from './top.module.css'
-import SEO from '../common/seo'
+import Seo from '../common/seo'
 import Title from '../common/title'
 import AccountLinks from '../common/account-links'
 import pageLinks from '../../data/common/page-links'
@@ -26,7 +26,7 @@ const Top = () => {
 
   return (
     <div className={Styles.outer}>
-      <SEO />
+      <Seo />
       <Segment className={Styles.segment} basic>
         <StaticImage
           className={Styles.image}

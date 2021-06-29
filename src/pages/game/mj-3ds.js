@@ -2,10 +2,10 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/game/mj-3ds-1.png',
-  'works/game/mj-3ds-2.png',
-  'works/game/mj-3ds-3.png',
-  'works/game/mj-3ds-4.png'
+  'game/mj-3ds-1.png',
+  'game/mj-3ds-2.png',
+  'game/mj-3ds-3.png',
+  'game/mj-3ds-4.png'
 ]
 
 const sections = [
@@ -28,8 +28,7 @@ const links = [
     name: 'プチコンまとめWiki',
     icon: 'linkify',
     color: 'teal',
-    href:
-      'http://wiki.hosiken.jp/petc3gou/?Toukou%2F4%BF%CD%C2%C7%A4%C1%CB%E3%BF%FD%A5%B2%A1%BC%A5%E0%A1%D8%A4%DE%A1%BC%A4%B8%A4%E3%A4%F3%A4%CE%A4%E8%A4%A6%A4%CA%A4%E2%A4%CE%A1%A3%A1%D9'
+    href: 'http://wiki.hosiken.jp/petc3gou/?Toukou%2F4%BF%CD%C2%C7%A4%C1%CB%E3%BF%FD%A5%B2%A1%BC%A5%E0%A1%D8%A4%DE%A1%BC%A4%B8%A4%E3%A4%F3%A4%CE%A4%E8%A4%A6%A4%CA%A4%E2%A4%CE%A1%A3%A1%D9'
   }
 ]
 

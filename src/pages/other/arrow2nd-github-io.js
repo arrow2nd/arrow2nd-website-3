@@ -2,9 +2,9 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/other/arrow2nd-github-io-1.png',
-  'works/other/arrow2nd-github-io-2.png',
-  'works/other/arrow2nd-github-io-3.png'
+  'other/arrow2nd-github-io-1.png',
+  'other/arrow2nd-github-io-2.png',
+  'other/arrow2nd-github-io-3.png'
 ]
 
 const sections = [

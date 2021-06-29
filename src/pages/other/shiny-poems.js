@@ -2,10 +2,10 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/other/shiny-poems-1.png',
-  'works/other/shiny-poems-2.png',
-  'works/other/shiny-poems-3.png',
-  'works/other/shiny-poems-4.png'
+  'other/shiny-poems-1.png',
+  'other/shiny-poems-2.png',
+  'other/shiny-poems-3.png',
+  'other/shiny-poems-4.png'
 ]
 
 const sections = [
@@ -15,8 +15,7 @@ const sections = [
   },
   {
     title: '使用技術',
-    text:
-      'Next.js / TypeScript / Tailwindcss / Cloudinary / im@sparql(SPARQL) / Vercel'
+    text: 'Next.js / TypeScript / Tailwindcss / Cloudinary / im@sparql(SPARQL) / Vercel'
   }
 ]
 

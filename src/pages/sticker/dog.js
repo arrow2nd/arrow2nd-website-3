@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
-const images = ['works/sticker/dog-1.png', 'works/sticker/dog-2.png']
+const images = ['sticker/dog-1.png', 'sticker/dog-2.png']
 
 const sections = [
   {

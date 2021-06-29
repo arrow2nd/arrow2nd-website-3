@@ -1,12 +1,12 @@
 import { Header, Segment } from 'semantic-ui-react'
 import * as React from 'react'
 import Layout from '../components/layout/layout'
-import SEO from '../components/common/seo'
+import Seo from '../components/common/seo'
 import Title from '../components/common/title'
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="Oops!" />
+    <Seo title="Oops!" />
     <Title name="Oops!" />
     <Segment basic textAlign="center">
       <Header
