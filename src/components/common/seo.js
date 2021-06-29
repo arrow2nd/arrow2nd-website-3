@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import * as React from 'react'
 import PropTypes from 'prop-types'
 
-const SEO = ({ title, desc, image, article }) => {
+const Seo = ({ title, desc, image, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(
     graphql`
@@ -69,18 +69,18 @@ const SEO = ({ title, desc, image, article }) => {
   )
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   title: '',
   image: '',
   desc: '',
   article: false
 }
 
-SEO.propTypes = {
+Seo.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string,
   desc: PropTypes.string,
   article: PropTypes.bool
 }
 
-export default SEO
+export default Seo

@@ -1,13 +1,13 @@
 import * as React from 'react'
 import PropTypes from 'prop-types'
 import Layout from '../layout/layout'
-import SEO from '../common/seo'
+import Seo from '../common/seo'
 import Button from './button'
 import CardGroup from './cardgroup'
 
 const Category = ({ title, cards }) => (
   <Layout title="Works">
-    <SEO title={title} />
+    <Seo title={title} />
     <Button active={title} />
     <CardGroup items={cards} />
   </Layout>

@@ -4,7 +4,7 @@ import { useSeoImage } from './useSeoImage'
 import * as React from 'react'
 import * as Styles from './detail.module.css'
 import PropTypes from 'prop-types'
-import SEO from '../common/seo'
+import Seo from '../common/seo'
 import Section from '../common/section'
 import Layout from '../layout/layout'
 import Carousel from './carousel'
@@ -15,7 +15,7 @@ const Detail = ({ category, title, images, sections, links }) => {
 
   return (
     <Layout>
-      <SEO title={title} image={seoImage} desc={sections[0].text} article />
+      <Seo title={title} image={seoImage} desc={sections[0].text} article />
       <div className={Styles.title}>
         <Carousel items={images} />
         <Header as="h2" content={title} textAlign="center" />
