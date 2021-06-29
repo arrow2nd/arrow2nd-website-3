@@ -2,21 +2,19 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/other/produce-1.png',
-  'works/other/produce-2.png',
-  'works/other/produce-3.png'
+  'other/produce-1.png',
+  'other/produce-2.png',
+  'other/produce-3.png'
 ]
 
 const sections = [
   {
     title: '概要',
-    text:
-      'アイドルマスターシリーズに登場するアイドルのプロフィールを検索できるLINEBotです'
+    text: 'アイドルマスターシリーズに登場するアイドルのプロフィールを検索できるLINEBotです'
   },
   {
     title: '特徴',
-    text:
-      '名前の一部や読み（ひらがな）からなどのうろ覚え検索や、誕生日からの検索もできます'
+    text: '名前の一部や読み（ひらがな）からなどのうろ覚え検索や、誕生日からの検索もできます'
   },
   {
     title: '使用技術',

@@ -2,17 +2,16 @@ import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
 const images = [
-  'works/game/nyanko-1.png',
-  'works/game/nyanko-2.png',
-  'works/game/nyanko-3.png',
-  'works/game/nyanko-4.png'
+  'game/nyanko-1.png',
+  'game/nyanko-2.png',
+  'game/nyanko-3.png',
+  'game/nyanko-4.png'
 ]
 
 const sections = [
   {
     title: '概要',
-    text:
-      '問題とその答えが合っているかどうか、すばやく『シュッ』と採点する脳トレゲームです'
+    text: '問題とその答えが合っているかどうか、すばやく『シュッ』と採点する脳トレゲームです'
   },
   {
     title: 'コンテスト',

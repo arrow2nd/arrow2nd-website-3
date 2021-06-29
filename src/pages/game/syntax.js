@@ -1,11 +1,7 @@
 import * as React from 'react'
 import Detail from '../../components/detail/detail'
 
-const images = [
-  'works/game/syntax-1.png',
-  'works/game/syntax-2.png',
-  'works/game/syntax-3.png'
-]
+const images = ['game/syntax-1.png', 'game/syntax-2.png', 'game/syntax-3.png']
 
 const sections = [
   {
@@ -14,8 +10,7 @@ const sections = [
   },
   {
     title: 'ひとこと',
-    text:
-      '遊びながら命令が覚えれたらいいなと思って作ったものの、なんか違う感じになりました…'
+    text: '遊びながら命令が覚えれたらいいなと思って作ったものの、なんか違う感じになりました…'
   },
   {
     title: '公開キー',
