@@ -18,6 +18,12 @@ const otherCards = [
     href: '/other/shiny-poems'
   },
   {
+    title: 'im@s-palette',
+    desc: 'アイマス色検索',
+    image: 'other/imas-palette-1.png',
+    href: '/other/imas-palette'
+  },
+  {
     title: '匿名Player+',
     desc: 'オモコロのラジオを再生するプレイヤー',
     image: 'other/tokumei-1.png',
